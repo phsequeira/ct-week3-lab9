@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS peoples;
+CREATE TABLE peoples (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  name TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  img TEXT NOT NULL,
+  snap TEXT,
+  phone TEXT,
+  insta TEXT
+);
